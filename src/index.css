@@ -1,0 +1,95 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  background-color: #ffd283;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px 50px;
+  min-width: 90vh;
+  min-height: 50vh;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ form {
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 25px;
+  min-height: 20vh;
+}
+
+.todo-button, input{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  border: none;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.todo-container {
+  margin-left: 15%;
+  justify-content: space-between;
+}
+
+.todo {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50%;
+  background-color: white;
+  color: black;
+  min-width: 50vh;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.delete {
+  color: blue;
+  margin-left: 80%;
+}
+
+.trash-btn, .check-btn{
+  background: #cb47ff;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
